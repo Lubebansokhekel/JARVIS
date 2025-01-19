@@ -18,7 +18,9 @@ Proyek ini menampilkan **Termux** yang telah dimodifikasi agar memiliki nuansa s
    Pastikan Anda telah menginstal **Termux** di perangkat Android Anda.  
    ```bash
    pkg update && pkg upgrade
-   pkg install sox mpv -y 
-   git clone https://github.com/GALIRUS404/JARVIS
+   pkg install sox mpv -y
+   rm -rf JARVIS
+   cd $HOME
+   git clone https://github.com/Lubebansokhekel/JARVIS
    cd JARVIS
    bash jarvis.sh
